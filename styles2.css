@@ -1,0 +1,27 @@
+body {
+    background: url('https://criticalhits.com.br/wp-content/uploads/2025/02/beru-and-igris-v-s-thomas-v0-qgj-scaled.jpg') no-repeat center center fixed; /* Imagem de fundo */
+    background-size: cover;
+}
+
+h1, h2 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); /* Sombra para o texto */
+}
+
+.shadow-effect {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.gallery-title {
+    margin-bottom: 30px;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in:hover {
+    opacity: 1; /* Efeito de fade-in ao passar o mouse */
+}
+
+/* Cores personal
