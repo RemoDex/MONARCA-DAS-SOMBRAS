@@ -6,25 +6,39 @@
     <title>Solo Leveling - Monarca das Sombras</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles2.css">
+    <style>
+        .shadow-effect {
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        .bg-purple {
+            background-color: #4b0082;
+        }
+        .fade-in {
+            transition: opacity 0.5s ease-in-out;
+        }
+        .fade-in:hover {
+            opacity: 0.8;
+        }
+        @media (max-width: 768px) {
+            .nav-link {
+                font-size: 14px;
+            }
+            .gallery-title {
+                font-size: 1.5rem;
+            }
+            .img-fluid {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
 </head>
 <body>
-    <header class="bg-dark text-white text-center p-4">
-        <h1>Solo Leveling: Monarca das Sombras</h1>
-        <nav>
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#home">Início</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#about">Sobre</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#gallery">Galeria</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#contact">Contato</a>
-                </li>
-            </ul>
+    <header class="bg-dark text-white text-center p-3">
+        <h1 class="h4">Solo Leveling: Monarca das Sombras</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                </ul>
+            </div>
         </nav>
     </header>
 
@@ -40,13 +54,13 @@
         <div class="container">
             <h2 class="gallery-title text-center text-white">Galeria Sombria</h2>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-12 col-md-4 mb-3">
                     <img class="img-fluid fade-in" src="img1.jpg" alt="Imagem 1">
                 </div>
-                <div class="col-md-4">
+                <div class="col-12 col-md-4 mb-3">
                     <img class="img-fluid fade-in" src="img2.jpg" alt="Imagem 2">
                 </div>
-                <div class="col-md-4">
+                <div class="col-12 col-md-4 mb-3">
                     <img class="img-fluid fade-in" src="img3.jpg" alt="Imagem 3">
                 </div>
             </div>
@@ -54,7 +68,7 @@
     </section>
 
     <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2025 Solo Leveling Fanpage. Todos os direitos reservados.</p>
+        <p>&copy; remodex</p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
